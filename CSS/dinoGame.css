@@ -1,0 +1,63 @@
+.body {
+    padding: 20px;
+    margin: 0;
+}
+
+#dino {
+    width: 500px;
+    height: 200px;
+    border: 1px solid black;
+}
+
+@keyframes jump {
+    0% {
+        top: 150px
+    }
+
+    30% {
+        top: 100px;
+    }
+
+    70% {
+        top: 100px;
+    }
+}
+
+
+#characters {
+    width: 20px;
+    height: 50px;
+    background-color: red;
+    position: relative;
+    top: 150px;
+    animation: jump 500ms ;
+}
+.animation{
+    animation:jump 500ms; 
+}
+
+@keyframes block {
+    0% {
+        left: 480px
+    }
+
+    100% {
+    }
+
+}
+
+#block {
+    width: 20px;
+    height: 20px;
+    background-color: blue;
+    position: relative;
+    top: 130px;
+    left: 480px;
+    animation:block is infinite linear;
+}
+
+
+
+
+
+
